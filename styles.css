@@ -26,10 +26,12 @@ body {
 .header h2 {
     color: #f9faf8;
     font-size: 24px;
+    cursor: pointer;
 }
 
 .header li {
     color: #f9faf8;
+    cursor: pointer;
 }
 
 .header ul {
@@ -114,6 +116,7 @@ body {
 }
 
 .random-text {
+    padding: 5%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -123,27 +126,28 @@ body {
 }
 
 .boxes {
+    padding-bottom: 10%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    flex-wrap: wrap;
+    flex: 1;
+    /* align-items: center; */
     gap: 40px;
 }
 
 .section-two p {
     text-align: center;
     margin: 0;
+    padding: 3%;
 }
 
-/* .box-one,
+.box-one,
 .box-two,
 .box-three,
 .box-four {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-} */
+    width: 150px;
+    text-align: center;
+}
 
 .first,
 .second,
