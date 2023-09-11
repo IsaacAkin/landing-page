@@ -223,3 +223,14 @@ body {
     align-items: center;
     flex: 1;
 }
+
+/* FOOTER */
+.footer {
+    background-color: #1F2937;
+    color: #f9faf8;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
