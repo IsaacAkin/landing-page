@@ -188,7 +188,6 @@ body {
 
 /* SECTION FOUR */
 .section-four {
-    border: 1px solid black;
     display: flex;
     justify-content: center;
     padding: 100px;
