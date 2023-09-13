@@ -104,28 +104,37 @@ body {
 /* SECTION TWO */
 .section-two {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.section-two .container {
+    display: flex;
     flex-direction: column;
-    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
 }
 
 .random-text {
-    padding: 5%;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    color: #1f2937;
     font-size: 36px;
     font-weight: bolder;
-    color: #1f2937;
+    padding: 30px;
 }
 
 .boxes {
-    padding-bottom: 10%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    flex: 1;
-    /* align-items: center; */
+    padding-bottom: 5%;
     gap: 40px;
+    flex: 1;
 }
 
 .section-two p {
@@ -146,10 +155,10 @@ body {
 .second,
 .third,
 .fourth {
-    border: 3px solid #3882f6;
+    border: 4px solid #3882f6;
     width: 150px;
     height: 150px;
-    border-radius: 10%;
+    border-radius: 15px;
 }
 
 /* SECTION THREE */
