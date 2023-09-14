@@ -17,12 +17,18 @@ body {
     color: #f9faf8;
 }
 
-.header {
-    border: 1px solid white;
+.section-one .container {
     display: flex;
-    align-items: center;
+    flex-flow: column;
+    gap: 50px;
+    margin-bottom: 7%;
+}
+
+.header {
+    display: flex;
     justify-content: space-around;
-    flex: 1;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .header h2 {
@@ -31,38 +37,37 @@ body {
     cursor: pointer;
 }
 
-.header li {
-    color: #f9faf8;
-    cursor: pointer;
-}
-
 .header ul {
     list-style: none;
     margin: 0;
     padding: 0;
     display: flex;
+    flex-wrap: wrap;
     gap: 15px;
 }
 
+.header li {
+    color: #f9faf8;
+    cursor: pointer;
+}
+
 .hero {
-    /* padding: 50px; */
+    margin: auto;
     display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    border: 1px solid white;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 5px;
     flex: 1;
 }
 
 .hero-text {
-    border: 1px solid white;
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
+    flex-flow: column;
+    align-items: flex-start;
     justify-content: center;
-    flex: 1 1 20px;
-    /* height: 250px; */
-    /* width: auto; */
-    /* gap: 10px; */
+    flex-basis: 450px;
+    gap: 10px;
 }
 
 .hero-text .main-text {
@@ -78,27 +83,30 @@ body {
     color: #e5e7eb;
 }
 
-.hero-text .hero-button {
-    align-self: flex-start;
-    /* flex: 0; */
+.hero-text .btn {
+    height: 35px;
+    width: 120px;
+    font-size: medium;
+    font-weight: 600;
+    border-radius: 10px;
+    color: #f9faf8;
+    background-color: #3882f6;
+    border: none;
+    cursor: pointer;
+}
+
+.hero-text .btn:hover {
+    color: black;
+    background-color: white;
 }
 
 .hero-image {
-    /* background-color: black; */
-    height: 250px;
-    width: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex: 1;
-    /* border: 1px solid white; */
-}
-
-.hero-image img {
-    width: 500px;
-    height: 250px;
-    border-radius: 10px;
-    /* border: solid yellow; */
+    height: 230px;
+    width: 460px;
+    background-color: grey;
 }
 
 /* SECTION TWO */
@@ -242,7 +250,7 @@ body {
     align-items: center;
 }
 
-.sign-up-button button {
+.sign-up-btn button {
     height: 35px;
     width: 120px;
     font-size: medium;
@@ -254,8 +262,9 @@ body {
     cursor: pointer;
 }
 
-.sign-up-button button:hover {
-    filter: brightness(1.1);
+.sign-up-btn button:hover {
+    color: black;
+    background-color: white;
 }
 
 /* FOOTER */
